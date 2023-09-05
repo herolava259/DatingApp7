@@ -9,11 +9,18 @@
     <Content Include="Controllers\WeatherForecastController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
     <Content Include="Entities\AppUser.cs" />
+    <Content Include="Program.cs" />
+    <Content Include="Controllers\UsersController.cs" />
+    <Content Include="Controllers\BaseApiController.cs" />
+    <Content Include="Controllers\AccountController.cs" />
+    <Content Include="Interfaces\ITokenService.cs" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
   </ItemGroup>
 </Project>
