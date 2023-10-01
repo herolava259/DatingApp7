@@ -33,7 +33,7 @@ var app = builder.Build();
 
 // app.UseAuthorization();
 
-app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:62392"));
 
 app.UseAuthentication();
 app.UseAuthorization();
