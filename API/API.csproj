@@ -9,6 +9,7 @@
     <Content Include="Controllers\WeatherForecastController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -22,5 +23,7 @@
     <Content Include="Controllers\AccountController.cs" />
     <Content Include="Interfaces\ITokenService.cs" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
+    <Content Include="DTOs\RegisterDto.cs" />
+    <Content Include="Data\UserRepository.cs" />
   </ItemGroup>
 </Project>
