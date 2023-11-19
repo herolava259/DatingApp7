@@ -25,5 +25,9 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
     <Content Include="DTOs\RegisterDto.cs" />
     <Content Include="Data\UserRepository.cs" />
+    <Content Include="DTOs\MemberUpdateDto.cs" />
+    <Content Include="Extensions\IdentityServiceExtension.cs" />
+    <Content Include="Services\TokenService.cs" />
+    <Content Include="Helpers\AutoMapperProfiles.cs" />
   </ItemGroup>
 </Project>
