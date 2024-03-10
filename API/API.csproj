@@ -12,6 +12,7 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="CloudinaryDotNet" Version="1.23.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -30,5 +31,7 @@
     <Content Include="Extensions\IdentityServiceExtension.cs" />
     <Content Include="Services\TokenService.cs" />
     <Content Include="Helpers\AutoMapperProfiles.cs" />
+    <Content Include="Data\DataContext.cs" />
+    <Content Include="obj\Debug\net7.0\API.GlobalUsings.g.cs" />
   </ItemGroup>
 </Project>
